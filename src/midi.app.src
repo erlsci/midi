@@ -1,0 +1,15 @@
+{application, midi, [
+    {description, "Batteries-included Erlang MIDI: realtime device I/O (midiio) wired to message and file codecs (midilib) behind one API"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [
+        {"Github", "https://github.com/erlsci/midi"}
+    ]}
+ ]}.
