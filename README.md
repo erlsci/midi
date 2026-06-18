@@ -2,6 +2,10 @@
 
 *Batteries-included Erlang MIDI.*
 
+**Blocked**: currently waiting on 
+- midiio 0.1.0 release (NIF for minimidio)
+- midilib 0.6.0 refactor
+
 `midi` is the front door to the erlsci MIDI family. It wires realtime device I/O
 ([`midiio`](https://github.com/erlsci/midiio)) to message and file codecs
 ([`midilib`](https://github.com/erlsci/midilib)) behind one ergonomic API, so
